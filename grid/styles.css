@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 2em;
+  height: 2em;
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+}
+
+#test {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#test section {
+height: 20px;
+background-color: black;
+}
+
+article {
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(112,112,112,0.5);
+}
+
+article section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.card-white {
+  background-color: white;
+}
+
+.card-blue {
+  background-color: rgb(79, 79, 167);
+  color: white;
+}
+
+.card-orange {
+  background: linear-gradient(to bottom right, orange, red);
+  color: white;
+}
+
+.card-black {
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+#card-1-profile {
+  background-image: url('img/profile-1.jpg');
+}
+
+#card-2-profile {
+  background-image: url('img/profile-2.jpg');
+}
+#card-3-profile {
+  background-image: url('img/profile-3.jpg');
+}
+#card-4-profile {
+  background-image: url('img/profile-4.jpg');
+}
